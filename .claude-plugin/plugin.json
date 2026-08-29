@@ -1,0 +1,11 @@
+{
+  "name": "advisory-board",
+  "version": "1.0.0",
+  "description": "Build a private, fully-local 'advisory board' from podcast feeds: transcribe episodes on-device, index them into a local vector DB, and ask any question to get each expert's perspective with the episodes and timestamps to go listen to. Ships the skill + pipeline; you build your own corpus.",
+  "author": {
+    "name": "Natalia Chalmers",
+    "email": "natalia.chalmers@overjet.ai"
+  },
+  "keywords": ["rag", "podcasts", "transcription", "whisper", "local-first", "knowledge-base"],
+  "license": "MIT"
+}

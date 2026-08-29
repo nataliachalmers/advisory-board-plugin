@@ -1,0 +1,31 @@
+# Copy this to feeds.yaml and choose your own shows.
+# `slug` is a stable internal key (used in paths + DB) — don't rename once ingested.
+# Resolve a show name to its RSS feed via the Apple Podcasts / iTunes Search API:
+#   https://itunes.apple.com/search?term=SHOW+NAME&entity=podcast
+#
+# The example below is the dental practice-management board this plugin was built for.
+feeds:
+  - slug: richard_low
+    person: "Dr. Richard Low"
+    show: "The Shared Practices Podcast (Archives)"
+    feed_url: "https://rss.libsyn.com/shows/542907/destinations/4679687.xml"
+
+  - slug: kiera_dent
+    person: "Kiera Dent"
+    show: "Dental A-Team Podcast"
+    feed_url: "https://rss.libsyn.com/shows/166040/destinations/1103258.xml"
+
+  - slug: bulletproof
+    person: "Bulletproof Dental Practice"
+    show: "Bulletproof Dental Practice"
+    feed_url: "https://rss.libsyn.com/shows/87509/destinations/426879.xml"
+
+  - slug: sandy_pardue
+    person: "Sandy Pardue"
+    show: "Dental Drills Bits"
+    feed_url: "https://rss.libsyn.com/shows/90875/destinations/452604.xml"
+
+  - slug: hormozi
+    person: "Alex Hormozi"
+    show: "The Game with Alex Hormozi"
+    feed_url: "https://rss2.flightcast.com/zz5nwp81tktx53wb8fw6qq7j.xml"

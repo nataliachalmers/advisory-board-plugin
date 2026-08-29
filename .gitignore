@@ -1,0 +1,17 @@
+# NEVER commit the corpus — transcripts are copyrighted podcast content.
+data/
+logs/
+indexes/
+*.mp3
+*.m4a
+*.wav
+
+# local environment / binaries (recipients build their own)
+.venv/
+bin/
+feeds.yaml            # personal config; ship feeds.example.yaml instead
+
+# python noise
+__pycache__/
+*.pyc
+.DS_Store

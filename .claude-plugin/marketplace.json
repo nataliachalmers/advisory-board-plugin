@@ -1,0 +1,14 @@
+{
+  "name": "advisory-board-marketplace",
+  "owner": {
+    "name": "Natalia Chalmers",
+    "email": "natalia.chalmers@overjet.ai"
+  },
+  "plugins": [
+    {
+      "name": "advisory-board",
+      "source": "./",
+      "description": "Private, local podcast-to-advisory-board RAG pipeline + query skill."
+    }
+  ]
+}
